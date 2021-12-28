@@ -1,2 +1,79 @@
-body
- da da dsa
+body {
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+.section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 1px solid rgb(228, 224, 224);
+}
+
+/*-----------header-----------*/
+
+.header {
+  background-color: snow;
+}
+.header-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-item {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin-right: 50px;
+  color: black;
+}
+.nav-item:hover,
+.nav-item:focus {
+  color: rgb(170, 116, 0);
+}
+
+.current {
+  color: rgb(170, 116, 0);
+}
+/*------------ logo-------------*/
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: black;
+  margin-right: 100px;
+}
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: rgb(170, 116, 0);
+}
+.footer {
+  background-color: snow;
+}
+/*------------scroll-------------------*/
+.scroll-item {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+/*----calendar----*/
